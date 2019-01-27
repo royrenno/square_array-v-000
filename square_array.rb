@@ -1,7 +1,7 @@
 def square_array(numbers)
-  new_numbers =[]
+    numbers =[]
   numbers.each do|value|
-    new_numbers<<value**2
+    numbers<<value**2
   end
-  new numbers
+   numbers
 end
