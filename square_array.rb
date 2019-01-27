@@ -1,7 +1,7 @@
-def square_array(array)
-  array =[1,4,9]
-  array.each do|numbers|
-    puts "Add up#{numbers}"
-    square_array+=1
-  # your code here
+def square_array(numbers)
+  numbers =[]
+  numbers.each do|value|
+    new numbersm<<value**2
+  end
+  new numbers
 end
